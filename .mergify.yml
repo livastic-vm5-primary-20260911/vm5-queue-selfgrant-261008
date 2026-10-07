@@ -6,5 +6,4 @@ queue_rules:
 
 commands_restrictions:
   queue:
-    conditions:
-      - sender-permission >= write
+    conditions: []
