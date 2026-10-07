@@ -1,0 +1,10 @@
+queue_rules:
+  - name: vm5-safe-pending
+    queue_conditions:
+      - base = main
+      - label = vm5-queue-never-261008
+
+commands_restrictions:
+  queue:
+    conditions:
+      - sender-permission >= write
